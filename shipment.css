@@ -1,0 +1,186 @@
+/* default styles */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+.menu-header {
+  background-color: #fff;
+  color:#fff;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo img {
+  width: 100px; 
+  height: auto; 
+}
+
+.menu {
+  margin-left: auto;
+}
+
+.menu ul {
+  list-style-type: none;
+}
+
+.menu ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.menu ul li:last-child {
+  margin-right: 0; 
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+
+.image-container {
+  width: 300px;
+  height: 200px;
+  background-image: url(https://sz8303.p3cdn1.secureserver.net/wp-content/uploads/2021/01/imex5-copy.png);
+  background-size: 30% ;
+  background-repeat: no-repeat;
+  text-align: left;
+}
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.image-container {
+  font-size: 24px;
+  font-weight: bold;
+  height: 60px;
+  text-align: left;
+}
+
+.nav-links:hover {
+  background-color:black;
+}
+.nav-links {
+  list-style-type: none;
+}
+
+.nav-links li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+nav a:hover {
+  color:rgb(25, 41, 142);
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+.tracking-section {
+  background-color: #f0f0f0;
+  padding: 40px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.tracking-form {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type="text"] {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #ff6600;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+button:hover {
+  background-color: #e65000;
+}
+
+.tracking-result {
+  text-align: center;
+}
+
+#result-container {
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 800px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer li {
+  display: inline;
+  margin-right: 20px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
